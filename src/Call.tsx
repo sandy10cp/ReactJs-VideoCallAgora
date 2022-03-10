@@ -60,7 +60,7 @@ function Call() {
           <input type='text' name='appid' onChange={(event) => { setAppid(event.target.value) }}/>
         </label>
         <label>
-          Token(Optional):
+          Token:
           <input type='text' name='token' onChange={(event) => { setToken(event.target.value) }} />
         </label>
         <label>
