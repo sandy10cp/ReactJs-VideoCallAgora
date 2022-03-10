@@ -68,9 +68,9 @@ function Call() {
           <input type='text' name='channel' onChange={(event) => { setChannel(event.target.value) }} />
         </label>
         <div className='button-group'>
-          <button id='join' type='button' className='btn btn-primary btn-sm' disabled={joinState} onClick={() => {join(appid, channel, token)}}>Join</button>
-          <button id='leave' type='button' className='btn btn-primary btn-sm' disabled={!joinState} onClick={() => {leave()}}>Leave</button>
-          <button id='sharescreen' type='button' className='btn btn-primary btn-sm' onClick={() => {shareScreen()}}>Share</button>
+          <button id='join' type='button' className='btn btn-primary btn-sm' disabled={joinState} onClick={() => {join(appid, channel, token)}}>Video Call</button>
+          <button id='leave' type='button' className='btn btn-primary btn-sm' disabled={!joinState} onClick={() => {leave()}}>Leave Call</button>
+          <button id='sharescreen' type='button' className='btn btn-primary btn-sm' onClick={() => {shareScreen()}}>Share Screen</button>
         </div>
       </form>
       <div className='player-container'>
